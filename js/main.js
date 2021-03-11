@@ -8,7 +8,7 @@ jQuery(".header-right a:last-child").click(function() {
 );
 
 // Hiding the Hamburger Menu
-hamburger.click(function() {
+$(".close").click(function() {
     hamburger.removeClass("active");
 }
 );
