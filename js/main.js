@@ -1,6 +1,14 @@
+// Variable
+var hamburger = $(".hamburger-menu");
+
 // Displaying the Hamburger Menu
-$(".header-right a:last-child").click(function() {
-    $(".hamburger-menu").addClass("active");
+jQuery(".header-right a:last-child").click(function() {
+    hamburger.addClass("active");
 }
 );
 
+// Hiding the Hamburger Menu
+hamburger.click(function() {
+    hamburger.removeClass("active");
+}
+);
